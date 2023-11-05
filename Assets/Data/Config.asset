@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a6a6ed35b6403db915a5fa869cd610, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  <PlayerPrefab>k__BackingField: {fileID: -7636592173117131623, guid: bf175232e09862244845179cbc8be42a, type: 3}
+  <PlayerSpeed>k__BackingField: 20
+  <WallSpawnChance>k__BackingField: 10
+  <MinObstacleCount>k__BackingField: 0
+  <MaxObstacleCount>k__BackingField: 5
+  <MinDecorativeObjectCount>k__BackingField: 0
+  <MaxDecorativeObjectCount>k__BackingField: 8
+  <ChunkDecorativePoints>k__BackingField:
+  - {x: 11.64, y: 0, z: 13.9}
+  - {x: 14.37, y: 0, z: 4.33}
+  - {x: 13.76, y: 0, z: -4.39}
+  - {x: 15.47, y: 0, z: -15.64}
+  - {x: 5.05, y: 0, z: -15.25}
+  - {x: 6.29, y: 0, z: -8.58}
+  - {x: 3.93, y: 0, z: 1.45}
+  - {x: 1.74, y: 0, z: 11.86}
+  - {x: -4.83, y: 0, z: 5.58}
+  - {x: -9.8, y: 0, z: 13.33}
+  - {x: -17.03, y: 0, z: 11.9}
+  - {x: -14.45, y: 0, z: 4.94}
+  - {x: -16, y: 0, z: -2.88}
+  - {x: -14.35, y: 0, z: -13.44}
+  - {x: -7.04, y: 0, z: -8.01}
+  - {x: -6.4, y: 0, z: -15.98}
+  - {x: -1.35, y: 0, z: -4.89}
+  <ChunkObstaclePoints>k__BackingField:
+  - {x: 10.93, y: 0, z: 11.41}
+  - {x: 14.1, y: 0, z: 3.75}
+  - {x: 13.9, y: 0, z: -5.89}
+  - {x: 7.89, y: 0, z: -12.92}
+  - {x: 0.23, y: 0, z: -2.47}
+  - {x: 4.23, y: 0, z: 7.15}
+  - {x: 1.33, y: 0, z: 13.36}
+  - {x: -8.17, y: 0, z: 13.48}
+  - {x: -8.22, y: 0, z: 2.65}
+  - {x: -6.3, y: 0, z: -7.97}
+  - {x: -10.05, y: 0, z: -14.63}
+  - {x: -16.93, y: 0, z: -13.42}
+  - {x: -14.2, y: 0, z: -1.22}
+  - {x: -13.87, y: 0, z: 5.72}
+  - {x: -15.39, y: 0, z: 14.06}
+  <ChunkObstacles>k__BackingField:
+  - {fileID: 8656095387106024295, guid: 4ca30119b896dd04b830945619e3628c, type: 3}
+  - {fileID: 4343722147546450594, guid: 4e428374fd1a387499628de0550cd228, type: 3}
+  - {fileID: 2342917926078901466, guid: fe7531d6d702f3244bf2d0806e59bf30, type: 3}
+  <ChunkDecorativeObjects>k__BackingField:
+  - {fileID: 5054382439224453332, guid: 07cdcb4901b869341b10d4a306384da1, type: 3}
+  - {fileID: 3944520869319559582, guid: 0cae080525cca2a479c96137a67ba3cf, type: 3}
+  <ChunkFloorMaterial>k__BackingField:
+  - {fileID: 2100000, guid: 74e05da6c36161d44ae19e779687bb77, type: 2}
+  - {fileID: 2100000, guid: 02000081f7a6f1d4ba08026712af979e, type: 2}
+  - {fileID: 2100000, guid: 6e19e9d90cb4ae049b5050263bf8f52e, type: 2}
+  - {fileID: 2100000, guid: d9b4bf28305859248a09e80653fd4d3c, type: 2}
+  <ChunkSize>k__BackingField: 40
+  <ChunkPrefab>k__BackingField: {fileID: 567942306875594529, guid: a7a248055bb7e5744849b378610b140b, type: 3}
+  <ChunkHorizontalWallPrefab>k__BackingField: {fileID: 4817935947593075687, guid: b4bc3bf40ebb720428d2f57487ca5af8, type: 3}
+  <ChunkBoundSpawnPoints>k__BackingField:
+  - {x: 0, y: 0, z: -18.5}
+  - {x: 18.5, y: 0, z: 0}
+  - {x: 0, y: 0, z: 18.5}
+  - {x: -18.5, y: 0, z: 0}
